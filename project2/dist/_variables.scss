@@ -1,0 +1,39 @@
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25, // 4px
+  1h: 6px, 
+  2: $spacer * .5,  // 8px
+  2h: 10px,
+  3: $spacer, // 16px
+  4: $spacer * 1.25, // 20px
+  5: $spacer * 1.5, // 24px
+  6: $spacer * 1.75,
+  12: 12px,
+  15: 15px,
+  18: 18px,
+  30: 30px,
+  48: 48px,
+  60: 60px,
+  64: 64px,
+  80: 80px,
+) !default;
+
+$grid-gutter-width: 30px !default;
+$grid-gutter-height: 30px !default;
+
+$theme-colors: (
+  "primary":    #FDD446,
+  "gray": rgba(0, 0, 0, 0.5),
+  "secondary": #F90,
+);
+
+$font-sizes: (
+    11: 11px,
+    14: 14px,
+    17: 17px,
+  18: 18px,
+  20: 20px,
+);
+
+$border-radius-10: 10px 
