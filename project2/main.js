@@ -1,4 +1,4 @@
-import './assets/main.scss';
+import './public/main.scss';
 
 const container = document.querySelector('#grid-cards');
 
@@ -17,7 +17,7 @@ for (let index = 0; index < data.length / cols; index++) {
        <div class="col">
             <div class="card p-2 rounded-0 pb-12" style="border-color: rgba(48, 47, 46, 0.70);">
                 <img
-                    src="./assets/nft-image.jpg"
+                    src="./nft-image.jpg"
                     class="card-img-top rounded-0"
                     style="object-fit: cover"
                     alt="nft-image"
@@ -26,13 +26,13 @@ for (let index = 0; index < data.length / cols; index++) {
                 <div class="card-body p-0">
                     <h5 class="card-title fw-bold font-Istok fs-14 m-0" style="line-height: 34px">Без слов</h5>
                     <div class="d-flex">
-                        <img src="./assets/user.jpg" alt="user" width="48" height="48" />
+                        <img src="./user.jpg" alt="user" width="48" height="48" />
                         <div class="ms-1h">
                             <p class="fs-14 lh-sm">Настя Ивлеева Вячеславовна</p>
                             <div class="d-flex align-items-center">
                                 <p class="fs-11 lh-sm text-secondary">проверено</p>
                                 <img
-                                    src="./assets/verify.png"
+                                    src="./verify.png"
                                     alt="verify"
                                     width="14"
                                     height="14"
