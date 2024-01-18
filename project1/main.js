@@ -4,7 +4,7 @@ const tableBody = document.getElementById('table_body');
 const button = document.getElementById('fetch_data')
 
 const fetchData = async () => {
-    const res = await fetch('http://localhost:5173/data.json', {
+    const res = await fetch('https://chambo015.github.io/testWorkForOnePlus/data.json', {
         method: 'GET',
         headers: {
             'Content-Type': 'application/json',
